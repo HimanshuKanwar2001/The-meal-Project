@@ -35,7 +35,9 @@ body {
     z-index: 5;
     box-shadow: 2px 3px 5px black;
 }
-
+.fav-btn:active{
+  background-color: green;
+}
 a {
   color: white;
   text-decoration: none;
