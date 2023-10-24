@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite details</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-heading">
+        <a class="headings" href="./index.html">
+          <h2>Home</h2>
+        </a>
+        <a class="headings" href="./fav.html">
+          <h2>Meal Detail Page</h2>
+        </a>
+        <a class="headings" href="./favourite.html">
+          <h2>Favourites</h2>
+        </a>
+      </div>
+      <div class="flex" style="display: none">
+        <form class="flex" id="submit">
+          <input type="text" id="search" placeholder="Search for Meal" />
+          <button class="search-btn" type="submit">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </form>
+        <button class="random-btn" id="random">
+          <ion-icon name="shuffle-outline"></ion-icon>
+        </button>
+      </div>
+      <!-- <button class="fav-meal" id="fav-meal-increase">Favourites:+</button>
+        <button class="fav-meal" id="fav-meal-decrease">Favourites:-</button> -->
+      <div id="result-heading" class="result-heading"></div>
+      <div id="meals" class="meals"></div>
+      <div id="single-meal"></div>
+    </div>
+
+    <script src="./favouritescript.js"></script>
+  </body>
+</html>

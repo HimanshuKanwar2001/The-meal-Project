@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meal Info</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./favstyle.css">
+    <!-- <link rel="stylesheet" href="./favstyle.css"> -->
 </head>
 <body>
     <div class="container">
@@ -18,14 +18,14 @@
                     Meal Detail Page
                 </h2>
             </a>
-            <a class="headings" href="./fav.html">
+            <a class="headings" href="./favourite.html">
                 <h2>
                     Favourites
                 </h2>
             </a>
         </div>
-        <div class="flex">
-            <form class="flex" id="submit">
+        <div class="flex" style="display:none;">
+            <form class="flex"  id="submit">
                 <input type="text" id="search" placeholder="Search for Meal">
                 <button class="search-btn" type="submit">
                     <ion-icon name="search-outline"></ion-icon>
@@ -47,7 +47,8 @@
        
     </script>
 
-    <script src="./script.js"></script>
-    <script src="./favscript.js"></script>
+<script src="./favscript.js"></script>
+<script src="./script.js"></script>
+<!-- <script src="./favscript.js"></script> -->
 </body onload="goToStart()">
 </html>
